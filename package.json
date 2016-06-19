@@ -1,0 +1,26 @@
+{
+  "name": "text-canvas",
+  "version": "1.0.0",
+  "description": "Draw optionally styled text blocks onto a rectangle text area, which can then be rendered as plain-text, to terminal (with color support), or to DevTools console (with CSS support in Chrome/Firebug)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "lsc -cw src/",
+    "prepublish": "lsc -c src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summivox/text-canvas.git"
+  },
+  "author": "summivox <summivox@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/summivox/text-canvas/issues"
+  },
+  "homepage": "https://github.com/summivox/text-canvas#readme",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "livescript": "^1.5.0",
+    "mocha": "^2.5.3"
+  }
+}
